@@ -36,10 +36,41 @@ li {
 
 }
 
-#new-cat {
+#new-cat a {
+	color: blue;
+	text-decoration: none;
+}
+
+.garden-members li{
+	font-size: 150%;
+	padding-bottom: 5px;
+}
+
+.friends li {
+	font-size: 125%;
+	padding-bottom: 5px;
+}
+
+#edit-members a{
+	color: blue;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 125%;
+}
+
+#edit-friends a{
+	color: blue;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 110%
+}
+
+.on-button a{
+	text-decoration: none;
 	color: blue;
 }
 
-.garden-members {
-	font-size: 150%;
+.off-button a{
+	text-decoration: none;
+	color: blue;
 }
