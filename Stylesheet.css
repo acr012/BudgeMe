@@ -41,36 +41,48 @@ li {
 	text-decoration: none;
 }
 
+.garden-members {
+	width: 250px;
+	height: auto;
+	float: left;
+}     
+
+.friends {
+	width: 250px;
+	height: auto;
+	float: left;
+}
+
 .garden-members li{
 	font-size: 150%;
 	padding-bottom: 5px;
 }
 
 .friends li {
-	font-size: 125%;
+	font-size: 150%;
 	padding-bottom: 5px;
 }
 
-#edit-members a{
+#edit-members a {
 	color: blue;
 	text-decoration: none;
 	font-weight: bold;
 	font-size: 125%;
 }
 
-#edit-friends a{
+#edit-friends a { 
 	color: blue;
 	text-decoration: none;
 	font-weight: bold;
-	font-size: 110%
+	font-size: 125%
 }
 
-.on-button a{
+.on-button a {
 	text-decoration: none;
 	color: blue;
 }
 
-.off-button a{
+.off-button a {
 	text-decoration: none;
 	color: blue;
 }
