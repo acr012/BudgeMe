@@ -1,88 +1,91 @@
 .nav{
-	background-color: #E54028;
-    padding: 14px 16px;
+  background-color: #E54028;
+  padding: 14px 16px;
   }
 
 .nav-tabs {
-	list-style-type: none;
-	margin: 0;
-	padding: 14px 16px;
-	display: inline-block;
-	font-size: 150%;
-	text-align: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 14px 16px;
+  display: inline-block;
+  font-size: 150%;
+  text-align: center;
 }
 
 .nav-tabs a{
-	text-decoration: none;
-	color: #D0D102;
+  text-decoration: none;
+  color: #D0D102;
 }
 
 .nav-tabs a:hover {
-	background-color: #616161;
-	padding: 14px 16px;
+  background-color: #616161;
+  padding: 14px 16px;
 }
 
-.active {
-	background-color: #00A1CB;
-}
-
-li {
-	list-style-type: none;
+.tab-active {
+  background-color: #00A1CB;
 }
 
 .budget-cat {
-	font-size: 200%;
-	padding-bottom: 20px;
-
+  font-size: 200%;
+  padding-bottom: 20px;
 }
 
-#new-cat a {
-	color: blue;
-	text-decoration: none;
+#new-cat a, .on-button a, .off-button a, #garden-members a, #friends a {
+  color: blue;
+  text-decoration: none;
+  font-weight: bold;
 }
 
-.garden-members {
-	width: 250px;
-	height: auto;
-	float: left;
+#garden-members, #friends {
+  width: 500px;
+  height: auto;
+  float: left;
 }     
 
-.friends {
-	width: 250px;
-	height: auto;
-	float: left;
+#garden-members li, #friends li {
+  font-size: 150%;
 }
 
-.garden-members li{
-	font-size: 150%;
-	padding-bottom: 5px;
+
+.home-img img {
+  position: relative;
+  width: 100%;
 }
 
-.friends li {
-	font-size: 150%;
-	padding-bottom: 5px;
+#garden-name {
+  position: absolute;
+  top: 100px;
+  left: 50px;
+  font-size: 300%;
 }
 
-#edit-members a {
-	color: blue;
-	text-decoration: none;
-	font-weight: bold;
-	font-size: 125%;
+.home-img span{
+  color: #F3DC6C;
+  font: bold;
+  background: rgb(46,150,153);
+  background: rgba(46,150,153,.65);
 }
 
-#edit-friends a { 
-	color: blue;
-	text-decoration: none;
-	font-weight: bold;
-	font-size: 125%
+.home-img ul {
+  font-size: 150%;
+  font-weight: bold;
+  position: absolute;
+  top: 75px;
+  right: 250px;
+  width:25%;
+  padding-bottom: 20px;
 }
 
-.on-button a {
-	text-decoration: none;
-	color: blue;
+#task-list {
+  top: 300px;
 }
 
-.off-button a {
-	text-decoration: none;
-	color: blue;
+li {
+  list-style-type: none;
+}
+
+body {
+  background-color: rgb(43,150,153);
+  background-color: rgba(43,150,153,.5);
 }
